@@ -31,7 +31,7 @@ export default function FAQContent({ activeCategory, faqData, searchQuery }: FAQ
         
         {filteredFaqs.length === 0 ? (
           <div className="text-lg text-gray-500 py-12 px-6 text-center bg-white rounded-xl border-2 border-dashed border-gray-300">
-            No results found for "{searchQuery}"
+            No results found for &quot;{searchQuery}&quot;
           </div>
         ) : (
           <div className="space-y-4">
